@@ -1,0 +1,6 @@
+/*.env
+/*.venv
+/CMU*
+data/images
+models/
+submissions
