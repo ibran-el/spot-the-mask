@@ -29,14 +29,12 @@ face-mask-classifier/
 │   ├── trainer.py         # Training loop, early stopping, checkpointing
 │   ├── predictor.py       # Inference, TTA, Ensemble predictor
 │   └── submitter.py       # Formats and saves submission CSV
-├── data/
-│   ├── images/            # All train + test images (flat folder)
+├── data/                  # Get data from Zindis compettion page
 │   ├── train_labels.csv
 │   └── SampleSubmission.csv
-├── models/                # Saved model checkpoints
+├── models/                # Saved model checkpoints (uncommitted)
 ├── notebooks/
 │   └── pipeline.ipynb     # Orchestration notebook
-├── submissions/           # Generated submission CSVs
 ├── requirements.txt
 └── README.md
 ```
